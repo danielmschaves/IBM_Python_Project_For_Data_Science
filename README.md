@@ -1,12 +1,20 @@
-## IBM Python Project For Data Science
+# IBM Python Project For Data Science
 
+## Repository Overview
+This repository contains a Python project that extracts and visualizes stock and revenue data for Tesla (TSLA) and GameStop (GME). The objective of this project is to enable users to understand the historical trends in share prices and revenues for these two companies. The repository includes the main Python script or Jupyter Notebook, along with the necessary dependencies.
 
-## Project Overview
-This project is focused on extracting financial data of popular stocks such as Tesla, Amazon, AMD, and GameStop using Python libraries and web scraping. The goal is to collect historical share price and quarterly revenue reports and use the data to create a dashboard for visualizing patterns and trends.
+## Phases:
+- Data Extraction
+In this phase, we will extract stock and revenue data for Tesla and GameStop. We will use the yfinance library to obtain stock data, and web scraping techniques (using the requests and BeautifulSoup libraries) to extract revenue data from relevant websites.
 
-## Dashboard Analytics Displayed
-In this project, we will be practicing the display of key performance indicators in a clear and concise manner. A dashboard will be created to display the extracted data and help identify key performance indicators. Plotly will be used for data visualization, but it is not a requirement to take this course.
+- Data Processing
+After extracting the data, we will process and clean it to ensure that it is suitable for visualization. This includes removing unwanted characters (e.g., commas and dollar signs) and handling missing or empty values in the data.
 
-## Skills Network Labs and Watson Studio
-This project will use Skills Network Labs and Watson Studio to complete the hands-on labs and assignment. Skills Network Labs is a sandbox environment for learning and completing labs in courses, while Watson Studio is a suite of tools and a collaborative environment for data scientists, data analysts, AI and machine learning engineers, and domain experts to develop and deploy projects.
+- Graphing Function
+In this phase, we will define a graphing function (make_graph) that accepts stock data, revenue data, and the stock name as inputs, and generates interactive visualizations using the Plotly library. This function will be used to visualize the data for both Tesla and GameStop.
 
+- Data Visualization
+Finally, we will use the make_graph function to create visualizations for the extracted data. The visualizations will display historical share prices and revenue data for Tesla and GameStop, up to June 2021.
+
+## Conclusion
+This project demonstrates an efficient approach to extract, process, and visualize stock and revenue data for Tesla and GameStop. The visualizations generated will help users better understand the historical trends in share prices and revenues for these companies, which can assist in making informed decisions related to stock market investments.
